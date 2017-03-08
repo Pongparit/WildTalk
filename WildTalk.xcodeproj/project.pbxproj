@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F38902613C2829561B46880 /* Pods_WildTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6023FF7699943AD5435A9666 /* Pods_WildTalkTests.framework */; };
+		A27FD1083CD7D9429820824F /* Pods_WildTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41061FCEC407CAE45DA15414 /* Pods_WildTalk.framework */; };
+		AE172F27905DCA718FE20E9E /* Pods_WildTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83FDD9BD597C4D79DBE243A /* Pods_WildTalkUITests.framework */; };
+		C5A704FB1E6E11E600AD20EF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A704FA1E6E11E600AD20EF /* ChatViewController.swift */; };
+		C5A704FD1E6E132800AD20EF /* ImageDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A704FC1E6E132800AD20EF /* ImageDownloadManager.swift */; };
+		C5AFB1EC1E6E06820000C307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFB1EB1E6E06820000C307 /* AppDelegate.swift */; };
+		C5AFB1EE1E6E06820000C307 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFB1ED1E6E06820000C307 /* LoginViewController.swift */; };
+		C5AFB1F11E6E06820000C307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AFB1EF1E6E06820000C307 /* Main.storyboard */; };
+		C5AFB1F31E6E06820000C307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5AFB1F21E6E06820000C307 /* Assets.xcassets */; };
+		C5AFB1F61E6E06820000C307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5AFB1F41E6E06820000C307 /* LaunchScreen.storyboard */; };
+		C5AFB2011E6E06820000C307 /* WildTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFB2001E6E06820000C307 /* WildTalkTests.swift */; };
+		C5AFB20C1E6E06820000C307 /* WildTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AFB20B1E6E06820000C307 /* WildTalkUITests.swift */; };
+		C5AFB21A1E6E07130000C307 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5AFB2191E6E07130000C307 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5AFB1FD1E6E06820000C307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5AFB1E01E6E06810000C307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AFB1E71E6E06810000C307;
+			remoteInfo = WildTalk;
+		};
+		C5AFB2081E6E06820000C307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5AFB1E01E6E06810000C307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5AFB1E71E6E06810000C307;
+			remoteInfo = WildTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2811B901CC409DCEA40BCC9D /* Pods-WildTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildTalkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildTalkUITests/Pods-WildTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C97ED546D78722343133433 /* Pods-WildTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildTalkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildTalkUITests/Pods-WildTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41061FCEC407CAE45DA15414 /* Pods_WildTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		591D2319463B134EC3C5EFD8 /* Pods-WildTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildTalkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildTalkTests/Pods-WildTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		6023FF7699943AD5435A9666 /* Pods_WildTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83FDD9BD597C4D79DBE243A /* Pods_WildTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9267B98ED8A6513820D7217 /* Pods-WildTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildTalk/Pods-WildTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		C57CAC591E705EAC0043AE8B /* WildTalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WildTalk.entitlements; sourceTree = "<group>"; };
+		C5A704FA1E6E11E600AD20EF /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C5A704FC1E6E132800AD20EF /* ImageDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloadManager.swift; sourceTree = "<group>"; };
+		C5AFB1E81E6E06820000C307 /* WildTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AFB1EB1E6E06820000C307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5AFB1ED1E6E06820000C307 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C5AFB1F01E6E06820000C307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5AFB1F21E6E06820000C307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5AFB1F51E6E06820000C307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5AFB1F71E6E06820000C307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AFB1FC1E6E06820000C307 /* WildTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AFB2001E6E06820000C307 /* WildTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildTalkTests.swift; sourceTree = "<group>"; };
+		C5AFB2021E6E06820000C307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AFB2071E6E06820000C307 /* WildTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AFB20B1E6E06820000C307 /* WildTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildTalkUITests.swift; sourceTree = "<group>"; };
+		C5AFB20D1E6E06820000C307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AFB2191E6E07130000C307 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE57DC261CBA057745ED48D0 /* Pods-WildTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildTalk/Pods-WildTalk.release.xcconfig"; sourceTree = "<group>"; };
+		E63F214D13ECD505441D4DFE /* Pods-WildTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildTalkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildTalkTests/Pods-WildTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5AFB1E51E6E06810000C307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27FD1083CD7D9429820824F /* Pods_WildTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFB1F91E6E06820000C307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F38902613C2829561B46880 /* Pods_WildTalkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFB2041E6E06820000C307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE172F27905DCA718FE20E9E /* Pods_WildTalkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15988F625176DC938A807E64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9267B98ED8A6513820D7217 /* Pods-WildTalk.debug.xcconfig */,
+				DE57DC261CBA057745ED48D0 /* Pods-WildTalk.release.xcconfig */,
+				E63F214D13ECD505441D4DFE /* Pods-WildTalkTests.debug.xcconfig */,
+				591D2319463B134EC3C5EFD8 /* Pods-WildTalkTests.release.xcconfig */,
+				3C97ED546D78722343133433 /* Pods-WildTalkUITests.debug.xcconfig */,
+				2811B901CC409DCEA40BCC9D /* Pods-WildTalkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EFABBEF4B39C52DD7205FFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41061FCEC407CAE45DA15414 /* Pods_WildTalk.framework */,
+				6023FF7699943AD5435A9666 /* Pods_WildTalkTests.framework */,
+				B83FDD9BD597C4D79DBE243A /* Pods_WildTalkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5AFB1DF1E6E06810000C307 = {
+			isa = PBXGroup;
+			children = (
+				C5AFB1EA1E6E06820000C307 /* WildTalk */,
+				C5AFB1FF1E6E06820000C307 /* WildTalkTests */,
+				C5AFB20A1E6E06820000C307 /* WildTalkUITests */,
+				C5AFB1E91E6E06820000C307 /* Products */,
+				15988F625176DC938A807E64 /* Pods */,
+				3EFABBEF4B39C52DD7205FFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5AFB1E91E6E06820000C307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5AFB1E81E6E06820000C307 /* WildTalk.app */,
+				C5AFB1FC1E6E06820000C307 /* WildTalkTests.xctest */,
+				C5AFB2071E6E06820000C307 /* WildTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5AFB1EA1E6E06820000C307 /* WildTalk */ = {
+			isa = PBXGroup;
+			children = (
+				C57CAC591E705EAC0043AE8B /* WildTalk.entitlements */,
+				C5AFB2191E6E07130000C307 /* GoogleService-Info.plist */,
+				C5AFB1EB1E6E06820000C307 /* AppDelegate.swift */,
+				C5AFB1ED1E6E06820000C307 /* LoginViewController.swift */,
+				C5AFB1EF1E6E06820000C307 /* Main.storyboard */,
+				C5AFB1F21E6E06820000C307 /* Assets.xcassets */,
+				C5AFB1F41E6E06820000C307 /* LaunchScreen.storyboard */,
+				C5AFB1F71E6E06820000C307 /* Info.plist */,
+				C5A704FA1E6E11E600AD20EF /* ChatViewController.swift */,
+				C5A704FC1E6E132800AD20EF /* ImageDownloadManager.swift */,
+			);
+			path = WildTalk;
+			sourceTree = "<group>";
+		};
+		C5AFB1FF1E6E06820000C307 /* WildTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5AFB2001E6E06820000C307 /* WildTalkTests.swift */,
+				C5AFB2021E6E06820000C307 /* Info.plist */,
+			);
+			path = WildTalkTests;
+			sourceTree = "<group>";
+		};
+		C5AFB20A1E6E06820000C307 /* WildTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5AFB20B1E6E06820000C307 /* WildTalkUITests.swift */,
+				C5AFB20D1E6E06820000C307 /* Info.plist */,
+			);
+			path = WildTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5AFB1E71E6E06810000C307 /* WildTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AFB2101E6E06820000C307 /* Build configuration list for PBXNativeTarget "WildTalk" */;
+			buildPhases = (
+				F6C914360987750A1AFE9003 /* [CP] Check Pods Manifest.lock */,
+				C5AFB1E41E6E06810000C307 /* Sources */,
+				C5AFB1E51E6E06810000C307 /* Frameworks */,
+				C5AFB1E61E6E06810000C307 /* Resources */,
+				943AC0C2247DDA6E9ECDB44E /* [CP] Embed Pods Frameworks */,
+				0B2EE779CAC6C3A7180388E0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WildTalk;
+			productName = WildTalk;
+			productReference = C5AFB1E81E6E06820000C307 /* WildTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5AFB1FB1E6E06820000C307 /* WildTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AFB2131E6E06820000C307 /* Build configuration list for PBXNativeTarget "WildTalkTests" */;
+			buildPhases = (
+				E0D4C427C13528345EF90618 /* [CP] Check Pods Manifest.lock */,
+				C5AFB1F81E6E06820000C307 /* Sources */,
+				C5AFB1F91E6E06820000C307 /* Frameworks */,
+				C5AFB1FA1E6E06820000C307 /* Resources */,
+				1534BA84BA2DBA3879D142B5 /* [CP] Embed Pods Frameworks */,
+				E2A8D086066C71008B78D1EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5AFB1FE1E6E06820000C307 /* PBXTargetDependency */,
+			);
+			name = WildTalkTests;
+			productName = WildTalkTests;
+			productReference = C5AFB1FC1E6E06820000C307 /* WildTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5AFB2061E6E06820000C307 /* WildTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5AFB2161E6E06820000C307 /* Build configuration list for PBXNativeTarget "WildTalkUITests" */;
+			buildPhases = (
+				E4229B2C0F30135A55538FC1 /* [CP] Check Pods Manifest.lock */,
+				C5AFB2031E6E06820000C307 /* Sources */,
+				C5AFB2041E6E06820000C307 /* Frameworks */,
+				C5AFB2051E6E06820000C307 /* Resources */,
+				53710C183175522A6D8E74EE /* [CP] Embed Pods Frameworks */,
+				7B9A01580F93EC3B898F14FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5AFB2091E6E06820000C307 /* PBXTargetDependency */,
+			);
+			name = WildTalkUITests;
+			productName = WildTalkUITests;
+			productReference = C5AFB2071E6E06820000C307 /* WildTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5AFB1E01E6E06810000C307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Pongparit Paocharoen";
+				TargetAttributes = {
+					C5AFB1E71E6E06810000C307 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 89ST658N5L;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					C5AFB1FB1E6E06820000C307 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5AFB1E71E6E06810000C307;
+					};
+					C5AFB2061E6E06820000C307 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5AFB1E71E6E06810000C307;
+					};
+				};
+			};
+			buildConfigurationList = C5AFB1E31E6E06810000C307 /* Build configuration list for PBXProject "WildTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5AFB1DF1E6E06810000C307;
+			productRefGroup = C5AFB1E91E6E06820000C307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5AFB1E71E6E06810000C307 /* WildTalk */,
+				C5AFB1FB1E6E06820000C307 /* WildTalkTests */,
+				C5AFB2061E6E06820000C307 /* WildTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5AFB1E61E6E06810000C307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AFB1F61E6E06820000C307 /* LaunchScreen.storyboard in Resources */,
+				C5AFB21A1E6E07130000C307 /* GoogleService-Info.plist in Resources */,
+				C5AFB1F31E6E06820000C307 /* Assets.xcassets in Resources */,
+				C5AFB1F11E6E06820000C307 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFB1FA1E6E06820000C307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFB2051E6E06820000C307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B2EE779CAC6C3A7180388E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildTalk/Pods-WildTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1534BA84BA2DBA3879D142B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildTalkTests/Pods-WildTalkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53710C183175522A6D8E74EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildTalkUITests/Pods-WildTalkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B9A01580F93EC3B898F14FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildTalkUITests/Pods-WildTalkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		943AC0C2247DDA6E9ECDB44E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildTalk/Pods-WildTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0D4C427C13528345EF90618 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A8D086066C71008B78D1EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildTalkTests/Pods-WildTalkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4229B2C0F30135A55538FC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C914360987750A1AFE9003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5AFB1E41E6E06810000C307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AFB1EE1E6E06820000C307 /* LoginViewController.swift in Sources */,
+				C5A704FB1E6E11E600AD20EF /* ChatViewController.swift in Sources */,
+				C5AFB1EC1E6E06820000C307 /* AppDelegate.swift in Sources */,
+				C5A704FD1E6E132800AD20EF /* ImageDownloadManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFB1F81E6E06820000C307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AFB2011E6E06820000C307 /* WildTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5AFB2031E6E06820000C307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5AFB20C1E6E06820000C307 /* WildTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5AFB1FE1E6E06820000C307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5AFB1E71E6E06810000C307 /* WildTalk */;
+			targetProxy = C5AFB1FD1E6E06820000C307 /* PBXContainerItemProxy */;
+		};
+		C5AFB2091E6E06820000C307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5AFB1E71E6E06810000C307 /* WildTalk */;
+			targetProxy = C5AFB2081E6E06820000C307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5AFB1EF1E6E06820000C307 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5AFB1F01E6E06820000C307 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5AFB1F41E6E06820000C307 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5AFB1F51E6E06820000C307 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5AFB20E1E6E06820000C307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5AFB20F1E6E06820000C307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5AFB2111E6E06820000C307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9267B98ED8A6513820D7217 /* Pods-WildTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WildTalk/WildTalk.entitlements;
+				DEVELOPMENT_TEAM = 89ST658N5L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WildTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xoutsource.WildTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		C5AFB2121E6E06820000C307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE57DC261CBA057745ED48D0 /* Pods-WildTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WildTalk/WildTalk.entitlements;
+				DEVELOPMENT_TEAM = 89ST658N5L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WildTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xoutsource.WildTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		C5AFB2141E6E06820000C307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63F214D13ECD505441D4DFE /* Pods-WildTalkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WildTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xoutsource.WildTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WildTalk.app/WildTalk";
+			};
+			name = Debug;
+		};
+		C5AFB2151E6E06820000C307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591D2319463B134EC3C5EFD8 /* Pods-WildTalkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WildTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xoutsource.WildTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WildTalk.app/WildTalk";
+			};
+			name = Release;
+		};
+		C5AFB2171E6E06820000C307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C97ED546D78722343133433 /* Pods-WildTalkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WildTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xoutsource.WildTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WildTalk;
+			};
+			name = Debug;
+		};
+		C5AFB2181E6E06820000C307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2811B901CC409DCEA40BCC9D /* Pods-WildTalkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WildTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xoutsource.WildTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WildTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5AFB1E31E6E06810000C307 /* Build configuration list for PBXProject "WildTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AFB20E1E6E06820000C307 /* Debug */,
+				C5AFB20F1E6E06820000C307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AFB2101E6E06820000C307 /* Build configuration list for PBXNativeTarget "WildTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AFB2111E6E06820000C307 /* Debug */,
+				C5AFB2121E6E06820000C307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AFB2131E6E06820000C307 /* Build configuration list for PBXNativeTarget "WildTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AFB2141E6E06820000C307 /* Debug */,
+				C5AFB2151E6E06820000C307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5AFB2161E6E06820000C307 /* Build configuration list for PBXNativeTarget "WildTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AFB2171E6E06820000C307 /* Debug */,
+				C5AFB2181E6E06820000C307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5AFB1E01E6E06810000C307 /* Project object */;
+}

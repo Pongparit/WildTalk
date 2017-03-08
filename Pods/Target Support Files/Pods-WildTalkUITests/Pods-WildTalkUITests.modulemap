@@ -1,0 +1,6 @@
+framework module Pods_WildTalkUITests {
+  umbrella header "Pods-WildTalkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
